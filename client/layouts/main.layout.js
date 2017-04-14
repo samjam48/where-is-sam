@@ -10,9 +10,9 @@ export default class MainLayout extends React.Component {
       <div className="app">
         <SvgIconRefs />
         <GithubCorner />
-        <div>
+        <main>
           {this.props.children}
-        </div>
+        </main>
       </div>
     );
   }

@@ -6,25 +6,19 @@ import './home.sass';
 class Home extends React.Component {
   render() {
     return (
-      <div>
-        <div className={ this.props.settingsOpened ? 'home-container shrink' : 'home-container'}>
-          <WorldMap />
-        </div>
+      <div className="home-container">
+        <WorldMap />
       </div>
     );
   }
 }
 
 const mapStateToProps = (state) => {
-  return {
-
-  };
+  return { };
 };
 
 const mapDispatchToProps = (dispatch) => {
-  return {
-
-  };
+  return { };
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
