@@ -1,7 +1,12 @@
+import LocationReader from '../services/location.reader.service';
+
 const Api = {
   configure: (router) => {
-    router.get('/api', (ctx) => {
-      ctx.body = 'result';
+    router.get('/api/locations', async (ctx) => {
+      await new LocationReader().get()
+        .then((data) => {
+          ctx.body = data;
+        });
     });
   },
 };

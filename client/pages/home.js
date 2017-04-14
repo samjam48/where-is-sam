@@ -1,9 +1,15 @@
 import React from "react";
 import { connect } from 'react-redux';
 import WorldMap from '../components/world-map/world.map';
+import { fetchLocations } from '../actions/map.actions';
+
 import './home.sass';
 
 class Home extends React.Component {
+  componentWillMount() {
+    this.props.fetchLocations();
+  }
+
   render() {
     return (
       <div className="home-container">
@@ -18,7 +24,9 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => {
-  return { };
+  return {
+    fetchLocations: () => dispatch(fetchLocations()),
+  };
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);

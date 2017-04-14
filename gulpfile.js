@@ -46,8 +46,8 @@ gulp.task('compile:server', () => {
     .pipe(gulp.dest(paths.serverBuildDir))
 });
 
-gulp.task('watch:server' , () => {
-  nodemon({
+gulp.task('watch:server', ['compile:server'] , () => {
+  return nodemon({
     script: 'dist/server.js',
     ext: 'js',
     watch: paths.serverSourceFiles,
