@@ -11,7 +11,7 @@ export default class LocationReader {
   }
 
   load() {
-    const publicSpreadsheetUrl = 'https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=1ujZWyJk4CftjJtZqPINWhbtKwCBR8QMQ2d3uMoK7zvU&output=html';
+    const publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1BSiHZZxiYlshSZgDW5bw-LFAdoNc01joeBNE9lzWidQ/pubhtml?gid=0&single=true';
     const deferred = q.defer();
 
     var callback = (data) => {
