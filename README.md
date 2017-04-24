@@ -1,8 +1,8 @@
 # What Language ?
 
-![codeship status](https://codeship.com/projects/2d4ca8b0-f4e6-0134-aab4-4e76bd6b2464/status?branch=master)
 
-Visit the live site here https://caiokf-what-language.herokuapp.com/
+
+Visit the live site here......
 
 ## Installation
 
@@ -16,7 +16,7 @@ Visit the live site here https://caiokf-what-language.herokuapp.com/
 
 `gulp watch` - launches app and updates server on save. (not hot reloading, you must refresh the browser after each edit)
 
-Front-end server will be available at: http://localhost:5000/
+Front-end server will be available at: http://localhost:5100/
 
 ## Running Tests and ESLint
 

@@ -1,11 +1,11 @@
 {
-  "name": "what-language",
+  "name": "where-is-sam",
   "version": "1.0.0",
-  "description": "What Language?",
+  "description": "where-is-sam?",
   "main": "dist/server.js",
-  "author": "Caio Kinzel Filho (caiokf@gmail.com)",
+  "author": "Sam Harris (sam@jam-bc.com)",
   "license": "ISC",
-  "homepage": "https://github.com/caiokf/what-language",
+  "homepage": "https://github.com/samjam48/where-is-sam",
   "engines": {
     "node": "7.4.0",
     "npm": "4.0.5"
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caiokf/what-language.git"
+    "url": "git+https://github.com/samjam48/where-is-sam.git"
   },
   "bugs": {
-    "url": "https://github.com/caiokf/what-language/issues"
+    "url": "https://github.com/samjam48/where-is-sam/issues"
   },
   "dependencies": {
     "axios": "^0.15.3",
